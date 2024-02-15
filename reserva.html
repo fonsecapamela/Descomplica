@@ -7,54 +7,72 @@
 </head>
 <body>
     <form action="/action_page.php" target="_blank" method="get">
-        <fieldset>
-            <legend>Dados do cliente</legend><br>
-            <label for="nomecompleto">Nome completo</label>
-            <input type="text">
-            <br>
-            <label for="email">Email</label>
-            <input type="email">
-        
-        </fieldset>
+        <section>
+            <fieldset>
+                <legend>Dados do cliente</legend><br>
+                <label for="nomecompleto">Nome completo</label>
+                <input type="text">
+                <br>
+                <label for="email">Email</label>
+                <input type="email">
+            
+            </fieldset>
+        </section>
         <br>
-        <fieldset>
-            <legend>Serviços Desejados</legend>
-            <label>
-                <input type="checkbox" name="Passagens" value="Passagens"> Compra de passagens
-            </label>
-            <label>
-                <br><input type="checkbox" name="hospedagem" value="hospedagem"> Reserva de hospedagem
-            </label>
-            <label>
-                <br><input type="checkbox" name="veículos" value="veículo"> Aluguel de veículos
-            </label>
-        </fieldset>
+        <section>
+            <fieldset>
+                <legend>Serviços Desejados</legend>
+                <label>
+                    <input type="checkbox" name="Passagens" value="Passagens"> Compra de passagens
+                </label>
+                <label>
+                    <br><input type="checkbox" name="hospedagem" value="hospedagem"> Reserva de hospedagem
+                </label>
+                <label>
+                    <br><input type="checkbox" name="veículos" value="veículo"> Aluguel de veículos
+                </label>
+            </fieldset>
+        </section>
         <br>
-        <fieldset>
-            <legend>Forma de Pagamento</legend>
-            <label>
-                <input type="radio" name="formaPagamento" value="Cartão de crédito"> Cartão de Crédito
-            </label>
-            <label>
-                <br><input type="radio" name="formaPagamento" value="boleto"> Boleto
-            </label>
-            <label>
-                <br><input type="radio" name="formaPagamento" value="Pix"> Pix
-            </label>
-        </fieldset>
+
+        <section>
+            <fieldset>
+                <legend>Comentários</legend>
+                <textarea name="comentário" id="comentário" cols="30" rows="10"></textarea> <br>
+            </fieldset>
+        </section>
+
+        <section>
+            <fieldset>
+                <legend>Forma de Pagamento</legend>
+                <label>
+                    <input type="radio" name="formaPagamento" value="Cartão de crédito"> Cartão de Crédito
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="boleto"> Boleto
+                </label>
+                <label>
+                    <br><input type="radio" name="formaPagamento" value="Pix"> Pix
+                </label>
+            </fieldset>
+        </section>
         <br>
-        <fieldset>
-            <legend>Escolha o prazo para pagamento</legend>
-            <select name="prazoPagamento">
-                 <option value="aVista">Á vista</option>
-                 <option value="5x" selected>5x sem juros</option>
-                 <option value="10x">10x com juros</option>
-            </select>
-        </fieldset>
+        <section>
+            <fieldset>
+                <legend>Escolha o prazo para pagamento</legend>
+                <select name="prazoPagamento">
+                     <option value="aVista">Á vista</option>
+                     <option value="5x" selected>5x sem juros</option>
+                     <option value="10x">10x com juros</option>
+                </select>
+            </fieldset>
+        </section>
         <br>
-        <label>
-            <input type="submit">
-        </label>
+        <section>
+            <label>
+                <input type="submit">
+            </label>
+        </section>
     
     </form>
 </body>
