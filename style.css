@@ -86,3 +86,11 @@ footer{
     text-align: center;
 }
 
+#pacotes .figuras figure{
+    display: inline-block;
+}
+
+#pacotes .figuras{
+    text-align: center;
+}
+
