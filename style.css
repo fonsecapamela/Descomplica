@@ -90,7 +90,6 @@ footer{
     display: inline-block;
 }
 
-#pacotes .figuras{
+#pacotes, .figuras, .videos{
     text-align: center;
 }
-
