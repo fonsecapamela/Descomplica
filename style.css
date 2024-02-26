@@ -1,21 +1,13 @@
 @charset UTF-8;
 
-body{
-    font-weight: 400;
-    font-family: Lato, Helvetica, sans-serif;
-    font-size: 15px;
-    line-height: 2.2em;
-    color: #818181;
+
+header p{
+    font-weight: 600;
+    color: white;
 }
 
-header{
-    background-color: #f4511e;
-    margin: 0px;
-    padding: 15px;
-}
-
-section, footer{
-    margin: 40px;
+header h1{
+    color: white;
 }
 
 h1{
@@ -25,71 +17,11 @@ h1{
     
 }
 
+
 h2{
     font-size: 24px;
     text-transform: uppercase;
-    color: #303030;
+    color: #313030;
     font-weight: 600;
 }
 
-nav li{
-    float: left;
-
-}
-
-nav ul{
-    float: right;
-    list-style: none;
-}
-
-nav li a{
-    padding: 10px;
-    color: white;
-    text-decoration: none;
-}
-
-nav{
-    font-size: 12px;
-    font-weight: bolder;
-    letter-spacing: 4px;
-    height: 50px;
-    background-color: #f4511e;
-    padding-right: 40px;
-
-}
-
-table{
-    width: 100%;
-
-}
-
-table td{
-    color: #303030;
-    padding: 5px;
-}
-
-table tr:nth-child(even){
-    background-color: #e9e9e9;
-
-}
-
-table tr:nth-child(odd){
-    background-color: #bdbdbdbd;
-}
-
-table thead th{
-    background-color: #f4511e ;
-    color: white;
-}
-
-footer{
-    text-align: center;
-}
-
-#pacotes .figuras figure{
-    display: inline-block;
-}
-
-#pacotes, .figuras, .videos{
-    text-align: center;
-}
