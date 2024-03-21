@@ -109,7 +109,7 @@
                         relógio Big Ben, a Abadia de Westminter e a roda gigante London Eye.</p>
                     <p class="card-text"><small class="text-body-secondary">Em até 21x sem juros!</small></p>
                 </div>
-                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" >Reservar</a>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">Reservar</a>
             </div>
             <div class="card">
                 <img src="imagens/Paris red.cort.jpg" class="card-img-top" alt="...">
@@ -235,22 +235,24 @@
         crossorigin="anonymous"></script>
 </body>
 
-<div class="modal" tabindex="-1">
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h5 class="modal-title">Suas compras</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-            </div>
-            <div class="modal-body">
-                <p>Produto adicionado ao carrinho</p>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
-                <button type="button" class="btn btn-success">Finalizar a compra?</button>
-            </div>
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="exampleModalLabel">Suas Compras</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
+        <div class="modal-body">
+          Produto adicionado ao carrinho!
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Continuar comprando</button>
+          <button type="button" class="btn btn-success">Finalizar a compra</button>
+        </div>
+      </div>
     </div>
-</div>
+  </div>
+
+
 
 </html>
